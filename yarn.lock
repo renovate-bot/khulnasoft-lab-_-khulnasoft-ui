@@ -226,6 +226,13 @@
   dependencies:
     "@babel/types" "^7.27.1"
 
+"@babel/parser@^7.28.3":
+  version "7.28.3"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.28.3.tgz#d2d25b814621bca5fe9d172bc93792547e7a2a71"
+  integrity sha512-7+Ey1mAgYqFAx2h0RuoxcQT5+MlG3GTV0TQrgr7/ZliKsm/MNDxVVutlWaziMq7wJNAz8MTqz55XLpWvva6StA==
+  dependencies:
+    "@babel/types" "^7.28.2"
+
 "@babel/plugin-bugfix-firefox-class-in-computed-class-key@^7.27.1":
   version "7.27.1"
   resolved "https://registry.yarnpkg.com/@babel/plugin-bugfix-firefox-class-in-computed-class-key/-/plugin-bugfix-firefox-class-in-computed-class-key-7.27.1.tgz#61dd8a8e61f7eb568268d1b5f129da3eee364bf9"
@@ -1033,6 +1040,14 @@
   version "7.27.1"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.27.1.tgz#9defc53c16fc899e46941fc6901a9eea1c9d8560"
   integrity sha512-+EzkxvLNfiUeKMgy/3luqfsCWFRXLb7U6wNQTk60tovuckwB15B191tJWvpp4HjiQWdJkCxO3Wbvc6jlk3Xb2Q==
+  dependencies:
+    "@babel/helper-string-parser" "^7.27.1"
+    "@babel/helper-validator-identifier" "^7.27.1"
+
+"@babel/types@^7.28.2":
+  version "7.28.2"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.28.2.tgz#da9db0856a9a88e0a13b019881d7513588cf712b"
+  integrity sha512-ruv7Ae4J5dUYULmeXw1gmb7rYRz57OWCPM57pHojnLq/3Z1CK2lNSLTCVjxVk1F/TZHwOZZrOWi0ur95BbLxNQ==
   dependencies:
     "@babel/helper-string-parser" "^7.27.1"
     "@babel/helper-validator-identifier" "^7.27.1"
@@ -3896,11 +3911,11 @@
     pretty-format "^29.5.0"
 
 "@vue/compat@^3.5.13":
-  version "3.5.14"
-  resolved "https://registry.yarnpkg.com/@vue/compat/-/compat-3.5.14.tgz#50c4401d45ccb53ec87ffc24ee7438be077c9af4"
-  integrity sha512-mghYsCnPgrkfy0UKAT8ILYykGIqPdtOpF5VWdHqJAdUbdggdEqLMVylkFkhGrtgaxG29z6kdzukvLRYn4MPo/Q==
+  version "3.5.21"
+  resolved "https://registry.yarnpkg.com/@vue/compat/-/compat-3.5.21.tgz#0647242f95d027766971b2c138d0673a408989ba"
+  integrity sha512-uakoBcdx+7qb1dv+rYJ4Bgex7fz7guWrr5Iv0gHCqdl7ijyNXyDJ0BqpZrvxDej82O+113i5LGZmIxfVMyPy/Q==
   dependencies:
-    "@babel/parser" "^7.27.2"
+    "@babel/parser" "^7.28.3"
     estree-walker "^2.0.2"
     source-map-js "^1.2.1"
 
